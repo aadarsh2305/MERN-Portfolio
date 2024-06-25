@@ -16,7 +16,7 @@ const Contact = () => {
                   <h2>Contact Information</h2>
                   <p>Please fill out the form to get in touch with me. I will get back to you as soon as possible.</p>
                   <ul>
-                    <li>Email: adarshgupta91111@gmail.commm</li>
+                    <li>Email: adarshgupta91111@gmail.com</li>
                     <li>Indore, Madhya Pradesh, INDIA</li>
                   </ul>
                 </div>

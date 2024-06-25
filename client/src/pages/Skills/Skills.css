@@ -1,0 +1,66 @@
+.Skills{
+    padding-left: 220px;
+    margin-top: 60px;
+}
+
+.Skills hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.Skills h2{
+    font-weight: bold;
+    color: #138781;
+}
+
+.Skills p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.Skills .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Skills .card {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Skills .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Skills .card-content {
+    padding: 15px;
+}
+
+.Skills .tech-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.Skills .media-body h5 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.Skills .media-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

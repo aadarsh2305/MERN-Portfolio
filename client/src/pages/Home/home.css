@@ -1,0 +1,49 @@
+.home-container{
+    height: 300px;
+    color: white;
+    padding-left: 150px !important;
+}
+
+.home-content h2{
+    padding: 5px;
+    padding-top: 80px;
+    /* margin-left: 150px; */
+}
+
+.home-content h1{
+    color: #e0b50f;
+    padding: 5px;
+    /* margin-left: 150px; */
+}
+
+.home-buttons{
+    /* margin-left: 150px; */
+    margin-top: 20px;
+}
+
+.home-buttons .btn-hire{
+    background-color: #3b8ff3;
+    color: white;
+    width: 160px;
+    transition: background-color 1s, color 1s, width 1s;
+}
+
+.home-buttons .btn-hire:hover{
+    background-color: white;
+    color: #3b8ff3;
+    width: 200px;
+}
+
+.home-buttons .btn-cv{
+    background-color: #f29f67;
+    color: white;
+    margin-left: 15px;
+    width: 160px;
+    transition: background-color 1s, color 1s, width 1s;
+}
+
+.home-buttons .btn-cv:hover{
+    background-color: white;
+    color: #f29f67;
+    width: 200px;
+}

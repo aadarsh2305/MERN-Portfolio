@@ -1,6 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import { FcHome,FcAbout,FcBiotech,FcReading, FcPortraitMode, FcWorkflow, FcBusinessContact } from "react-icons/fc";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 const Menu = ({ toggle }) => {
   return (

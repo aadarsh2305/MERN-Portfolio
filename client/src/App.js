@@ -6,10 +6,11 @@ import Education from './pages/Education/Education';
 import Projects from './pages/Projects/Projects';
 import Skills from './pages/Skills/Skills';
 import WorkExperience from './pages/WorkExp/WorkExperience';
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
-    <div>
+    <>
       <Layout />
       <div className='container'><About/></div>
       <Education />
@@ -17,7 +18,8 @@ function App() {
       <Projects />
       <WorkExperience />
       <Contact />
-    </div>
+      <ScrollToTop smooth color='#f29f67' style={{backgroundColor:'#1e1e2c', borderRadius:'80px',marginRight:'-20px'}}/>
+    </>
   );
 }
 

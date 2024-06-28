@@ -5,7 +5,7 @@ import { TechStack } from "../../utils/TechStack";
 const Skills = () => {
   return (
     <>
-      <div className="Skills">
+      <div className="Skills" id="skillsId">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Skills</h2>
         <hr />
         <p className="pb-3 text-center">

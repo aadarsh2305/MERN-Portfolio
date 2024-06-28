@@ -16,13 +16,13 @@ const Menu = ({ toggle }) => {
           </div>
           <div className="nav-items">
             <div className="nav-item">
-                <div className="nav-link"><FcHome/>Home</div>
-                <div className="nav-link"><FcAbout/>About</div>
-                <div className="nav-link"><FcReading/>Education</div>
-                <div className="nav-link"><FcBiotech/>Skills</div>
-                <div className="nav-link"><FcWorkflow/>Projects</div>
-                <div className="nav-link"><FcPortraitMode/>Work Experience</div>
-                <div className="nav-link"><FcBusinessContact/>Contact</div>
+                <div className="nav-link"><Link to="homeId" spy={true} smooth={true} offset={-100} duration={100}><FcHome/>Home</Link></div>
+                <div className="nav-link"><Link to="aboutId" spy={true} smooth={true} offset={-100} duration={100}><FcAbout/>About</Link></div>
+                <div className="nav-link"><Link to="educationId" spy={true} smooth={true} offset={-100} duration={100}><FcReading/>Education</Link></div>
+                <div className="nav-link"><Link to="skillsId" spy={true} smooth={true} offset={-100} duration={100}><FcBiotech/>Skills</Link></div>
+                <div className="nav-link"><Link to="projectsId" spy={true} smooth={true} offset={-100} duration={100}><FcWorkflow/>Projects</Link></div>
+                <div className="nav-link"><Link to="workexpId" spy={true} smooth={true} offset={-100} duration={100}><FcPortraitMode/>Work Experience</Link></div>
+                <div className="nav-link"><Link to="contactId" spy={true} smooth={true} offset={-100} duration={100}><FcBusinessContact/>Contact</Link></div>
                 
             </div>
           </div>
@@ -32,13 +32,13 @@ const Menu = ({ toggle }) => {
         <h6 className="text-center" style={{color:'white'}}>Icons</h6>
         <div className="nav-items">
             <div className="nav-item">
-                <div className="nav-link"><FcHome title="HOME"/></div>
-                <div className="nav-link"><FcAbout title="ABOUT"/></div>
-                <div className="nav-link"><FcReading title="EDUCATION"/></div>
-                <div className="nav-link"><FcBiotech title="SKILLS"/></div>
-                <div className="nav-link"><FcWorkflow title="PROJECTS"/></div>
-                <div className="nav-link"><FcPortraitMode title="WORK EXPERIENCE"/></div>
-                <div className="nav-link"><FcBusinessContact title="CONTACT"/></div>
+                <div className="nav-link"><Link to="homeId" spy={true} smooth={true} offset={-100} duration={100}><FcHome title="HOME"/></Link></div>
+                <div className="nav-link"><Link to="aboutId" spy={true} smooth={true} offset={-100} duration={100}><FcAbout title="ABOUT"/></Link></div>
+                <div className="nav-link"><Link to="educationId" spy={true} smooth={true} offset={-100} duration={100}><FcReading title="EDUCATION"/></Link></div>
+                <div className="nav-link"><Link to="skillsId" spy={true} smooth={true} offset={-100} duration={100}><FcBiotech title="SKILLS"/></Link></div>
+                <div className="nav-link"><Link to="projectsId" spy={true} smooth={true} offset={-100} duration={100}><FcWorkflow title="PROJECTS"/></Link></div>
+                <div className="nav-link"><Link to="workexpId" spy={true} smooth={true} offset={-100} duration={100}><FcPortraitMode title="WORK EXPERIENCE"/></Link></div>
+                <div className="nav-link"><Link to="contactId" spy={true} smooth={true} offset={-100} duration={100}><FcBusinessContact title="CONTACT"/></Link></div>
             </div>
           </div>
           </>

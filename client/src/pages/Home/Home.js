@@ -6,7 +6,7 @@ import Resume from '../../assets/Docs/Aadarsh_Resume.pdf'
 const Home = () => {
   return (
     <>
-      <div className="container-fluid home-container" >
+      <div className="container-fluid home-container" id="homeId" >
         <div className="container home-content">
           <h2>Hi👋 I am Aadarsh Gupta</h2>
           <h1>

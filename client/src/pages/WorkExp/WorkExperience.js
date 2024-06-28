@@ -10,7 +10,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 const WorkExperience = () => {
   return (
     <>
-      <div className="work">
+      <div className="work" id="workexpId">
         <div className="container work-exp">
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
             Work Experience
